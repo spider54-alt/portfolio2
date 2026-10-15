@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101322">
+  <meta name="description" content="Portfolio de Mathis Drouet, étudiant en BTS SIO option SLAM. Projets, compétences et expériences en développement informatique.">
+  <title>Mathis Drouet — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="#accueil" aria-label="Retour à l'accueil">MD<span>.</span></a>
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mainNav">Menu ☰</button>
+      <nav id="mainNav" aria-label="Navigation principale">
+        <a href="#apropos">À propos</a><a href="#projets">Projets</a><a href="#experiences">Stages</a>
+        <a href="#competences">Compétences</a><a href="#veille">Veille</a><a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="container hero" id="accueil">
+      <div>
+        <h1>Mathis <span>Drouet</span></h1>
+        <p>Étudiant à Epitech, je m’intéresse à la conception et au développement d’applications. Découvrez ici mes projets, mes compétences techniques et mon parcours.</p>
+      </div>
+    </section>
+
+    <section id="apropos">
+      <div class="container">
+        <div class="section-head"><div><div class="kicker">Qui suis-je ?</div><h2>À propos de moi</h2></div><p class="section-intro">Un aperçu de mon parcours et de mon orientation vers le développement logiciel.</p></div>
+        <div class="about-grid">
+          <article class="panel">
+            <h3>Bonjour, moi c’est Mathis.</h3>
+            <p>Je suis étudiant à Epitech, je m’intéresse à la conception et au développement d’applications. Découvrez ici mes projets, mes compétences techniques et mon parcours. <br><br> Adresse mail: drouet.mathis05@gmail.com</p>
+          </article>
+          <article class="panel">
+            <h3>Mon parcours</h3>
+            <div class="facts">
+              <div class="fact"><strong>BTS SIO</strong><span>Formation informatique</span></div>
+              <div class="fact"><strong>Option SLAM</strong><span>Développement logiciel</span></div>
+              <div class="fact"><strong>Metz</strong><span>Lycée Robert Schuman</span></div>
+              <div class="fact"><strong>En pratique</strong><span>Projets et stages</span></div>
+              <div class="fact"><strong>Pré MSc</strong><span>Formation   avec Alternance</span></div>
+              <div class="fact"><strong>Nancy</strong><span>Epitech</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projets">
+      <div class="container">
+        <div class="section-head"><div><div class="kicker">Réalisations</div><h2>Mes projets</h2></div><p class="section-intro">Quelques projets réalisé dans le cadre de stage ou durant mes etudes</p></div>
+        <div class="project-grid">
+          <article class="project">
+            <div class="project-art"><span class="project-symbol">A.</span></div>
+            <div class="project-body"><div class="project-top"><h3>Projet Agora</h3><span class="tag">Projet</span></div>
+              <p>Présentation d’un projet réalisé dans le cadre de mon parcours informatique.</p>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project-art"><span class="project-symbol">M.</span></div>
+            <div class="project-body"><div class="project-top"><h3>Projet Maya</h3><span class="tag">Projet</span></div>
+              <p>Une réalisation fait dans le cadre de mon BTS</p>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project-art"><span class="project-symbol">E.</span></div>
+            <div class="project-body"><div class="project-top"><h3>Projet Emaya</h3><span class="tag">Projet</span></div>
+              <p>Une réalisation fait dans le cadre de mon BTS</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experiences">
+      <div class="container">
+        <div class="section-head"><div><div class="kicker">Expérience professionnelle</div><h2>Mes stages</h2></div><p class="section-intro"></p></div>
+        <div class="timeline">
+          <article class="panel experience"><span class="period">1re année de BTS SIO</span><h3>Stage de première année</h3><p></p></article>
+          <article class="panel experience"><span class="period">2e année de BTS SIO</span><h3>Stage de deuxième année</h3><p></p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="competences">
+      <div class="container">
+        <div class="section-head"><div><div class="kicker"></div><h2>Mes compétences</h2></div><p class="section-intro"></p></div>
+        <div class="skills-grid">
+          <article class="panel skill-group"><h3>Langages</h3><div class="chips"><span class="chip">PHP 8</span><span class="chip">Java</span><span class="chip">Dart</span><span class="chip">Python</span><span class="chip">HTML5</span><span class="chip">CSS3</span><span class="chip">XML</span></div></article>
+          <article class="panel skill-group"><h3>Bases de données</h3><div class="chips"><span class="chip">MySQL</span><span class="chip">SQL</span></div></article>
+          <article class="panel skill-group"><h3>Frameworks & SDK</h3><div class="chips"><span class="chip">Symfony</span><span class="chip">Doctrine</span><span class="chip">Bootstrap</span><span class="chip">Flutter</span></div></article>
+          <article class="panel skill-group"><h3>Modélisation</h3><div class="chips"><span class="chip">UML</span><span class="chip">Merise</span><span class="chip">Modelio</span></div></article>
+          <article class="panel skill-group"><h3>Outils de développement</h3><div class="chips"><span class="chip">WampServer</span><span class="chip">Visual Studio Code</span><span class="chip">Android Studio</span><span class="chip">Git</span></div></article>
+          <article class="panel skill-group"><h3>Méthodes & outils</h3><div class="chips"><span class="chip">WordPress</span><span class="chip">Trello</span><span class="chip">Office</span><span class="chip">Scrum</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="veille">
+      <div class="container">
+        <div class="section-head"><div><div class="kicker"></div><h2>Veille informatique</h2></div><p class="section-intro"></p></div>
+        <div class="watch-grid">
+          <article class="panel watch"><span class="number">THÈME 01</span><h3>Développement mobile</h3><p>Suivre les évolutions des outils et frameworks mobiles, les nouvelles fonctionnalités et les bonnes pratiques de conception d’applications.</p></article>
+          <article class="panel watch"><span class="number">THÈME 02</span><h3>DevOps</h3><p>Observer les pratiques d’automatisation, d’intégration et de déploiement continus, ainsi que les outils qui facilitent le travail des équipes.</p></article>
+          <article class="panel watch"><span class="number">THÈME 03</span><h3>Intelligence artificielle</h3><p>Suivre les usages de l’IA dans le développement logiciel, ses apports, ses limites et les enjeux liés à la confidentialité des données.</p></article>
+        </div>
+        <p class="notice"></p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="contact">
+          <div><div class="kicker">Entrons en contact</div><h2>Un projet ou une opportunité ?</h2><p>Vous souhaitez échanger au sujet de mon parcours, de mes projets ou de mes compétences ? Vous pouvez me contacter en utilisant les coordonnées que vous choisirez d’ajouter ici.</p></div>
+          <a class="btn primary" href="mailto:VOTRE-EMAIL@example.com" id="emailLink">Me contacter ↗</a>
+        </div>
+        <p class="notice"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <span>
+        <span id="year">
+        </span> Mathis Drouet
+      </span>
+    <span>
+      Portfolio
+    </span>
+    <a href="#accueil">Retour en haut ↑</a></div>
+  </footer>
+</body>
+</html>
